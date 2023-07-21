@@ -1,0 +1,14 @@
+- name: Configure LAMP Stack
+  hosts: _web_server_1
+  become: yes
+  gather_facts: false
+  vars_files:
+    - vars/default.yml
+    - vars/secrets.yml
+  roles:
+    - apache
+    - mysql
+    - wordpress
+
+
+# ansible-playbook --ask-vault-pass wp-playbook.yml

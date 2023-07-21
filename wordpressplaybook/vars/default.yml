@@ -1,0 +1,13 @@
+---
+#System Settings
+wordpress_modules: ['php-mysql', 'ghostscript', 'php', 'php-bcmath', 'libapache2-mod-php', 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip', 'php-imagick', 'php-json' ]
+
+#MySQL Settings
+mysql_db: "hello-db"
+mysql_user: "dhan"
+
+
+#HTTP Settings
+http_port: "80"
+http_host: "3.144.37.239"
+http_conf: "3.144.37.239.conf"

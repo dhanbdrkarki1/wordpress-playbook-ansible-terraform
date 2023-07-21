@@ -1,0 +1,7 @@
+---
+# vars file for mysql
+mysql_root_password: "P@ssword0123"
+mysql_db: "hello-db"
+mysql_user: "dhan"
+mysql_password: "dhan"
+http_port: "80"
