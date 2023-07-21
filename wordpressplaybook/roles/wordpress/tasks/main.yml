@@ -33,13 +33,13 @@
 
 - name: Set up wp-config
   template:
-    src: "files/wp-config.php.j2"
+    src: "wp-config.php.j2"
     dest: "/var/www/{{ http_host }}/wordpress/wp-config.php"
   tags: [ wordpress ]
 
   # PHP Info Page
 - name: Sets Up PHP Info Page
   template:
-    src: "files/info.php.j2"
+    src: "info.php.j2"
     dest: "/var/www/{{ http_host }}/info.php"
 
